@@ -3,7 +3,6 @@ SOURCE = source
 DOCS := $(shell find $(SOURCE) -name '*.md' ! -name 'index.md' -exec basename {} \;)
 TEMP := $(DOCS:%=$(PUBLIC)/%)
 HTML := $(TEMP:.md=.html)
-TOC := $(shell  )
 
 all: public html $(PUBLIC)/style.css index
 
