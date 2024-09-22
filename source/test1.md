@@ -1,7 +1,3 @@
-% My title
-% Author
-% 20240921
-
 ## Heading L2
 
 Lunch:
