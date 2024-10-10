@@ -13,6 +13,12 @@
 </head>
 <body>
 <a href="/">Home</a>
+<div id="header">
+<h1><?theme title?></h1>
+</div>
+<div id="aside">
+<?theme toc?>
+</div>
 <div>
 <?theme body?>
 </div>
